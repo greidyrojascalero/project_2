@@ -38,12 +38,27 @@ a {
     padding: 5px;
 }
 
-section {
-    background-color: #fff;
+
+
+/*Header------------------------------------*/
+
+
+.header {
+    text-align: center;
+        margin: 20px;
 }
 
 .profile-image {
-    max-width: 100%;
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*Section Project---------------------------*/
+
+section {
+    background-color: #fff;
 }
 
 h3 {
@@ -93,6 +108,24 @@ h3 {
     padding-left: 10px;
     
 }
+
+
+/*Header------------------------------------*/
+
+.profile-image {
+    max-width: 40%;
+    margin: 20px 25px 25px 0px;
+    float: right;
+}
+
+.header p {
+    float: left;
+    max-width: 45%;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 20px 0px 25px 25px;
+}
+
 
 /*Section Project---------------------------*/
 
@@ -144,6 +177,9 @@ h3 {
     padding-left: 25px;
     font-size: 1.5em;
 }
+
+
+/*Section Project---------------------------*/
 
 .project {
     width: 32%;
