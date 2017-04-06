@@ -1,15 +1,17 @@
 /*Body---------------------------*/
 
 body {
-    background: #F4F9F2;
+    background-color: #F4F9F2;
     color: #535151;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 /*Navbar-------------------------*/
 
 .navbar {
     text-align: center;
+    font-weight: 600;
 }
 
 a {
@@ -18,18 +20,21 @@ a {
 }
 
 .name {
-    font-size: 2em;
+    font-size: 1.5em;
+    padding-top: 15px;
 }
 
 .nav {
     padding: 0px;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 .nav li {
     list-style: none;
     display: block;
     background-color: #fff;
-    margin: 5px;
+    margin: 5px 15px;
     padding: 5px;
 }
 
@@ -73,9 +78,15 @@ h3 {
 
 /*Navbar -----------------------------------*/
 
+.navbar {
+    font-weight: 800;
+    padding-top: 20px;
+}
+
 .nav li{
   display: inline-block;
   padding-right: 25px;
+  background-color: #F4F9F2;
 }
 
 .name a {
