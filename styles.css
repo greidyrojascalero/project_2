@@ -91,7 +91,7 @@ h3 {
 
 .name a {
     padding-left: 10px;
-    margin-top: -8px;
+    
 }
 
 /*Section Project---------------------------*/
@@ -99,8 +99,8 @@ h3 {
 .project {
     width: 48%;
     float: left;
-    min-height: 330px;
-   
+    min-height: 360px;
+    
 }
 
 .project p {
@@ -120,16 +120,18 @@ h3 {
 /*Navbar---------------------------------------*/
 
 .navbar {
-    padding-right: 40px;
+
 }
 
 .nav {
     text-align: right;
+    padding-right: 20px;
 }
 
 .nav li{
   display: inline-block;
   padding-right: 25px;
+  font-size: 1.2em;
 }
 
 .nav a {
@@ -139,8 +141,8 @@ h3 {
 
 .name a {
     float: left;
-    padding-left: 10px;
-    margin-top: -8px;
+    padding-left: 25px;
+    font-size: 1.5em;
 }
 
 .project {
