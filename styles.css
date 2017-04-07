@@ -133,6 +133,7 @@ h3 {
     width: 48%;
     float: left;
     min-height: 360px;
+    margin-left: 9.5px;
     
 }
 
@@ -142,6 +143,11 @@ h3 {
 
 .clear {
     clear: both;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 }
@@ -183,6 +189,9 @@ h3 {
 
 .project {
     width: 32%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
 }
 
 .project p {
