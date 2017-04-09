@@ -7,6 +7,7 @@ body {
     margin: 0px;
 }
 
+
 /*Navbar-------------------------*/
 
 .navbar {
@@ -39,13 +40,15 @@ a {
 }
 
 
-
 /*Header------------------------------------*/
-
 
 .header {
     text-align: center;
-        margin: 20px;
+    margin: 20px 15px 40px 15px;
+    color: #808181;
+    font-size: 0.9em;
+    letter-spacing: 0.4px;
+    line-height: 1.5em;
 }
 
 .profile-image {
@@ -59,19 +62,23 @@ a {
 
 section {
     background-color: #fff;
+    padding-bottom: 30px;
 }
 
 h3 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 0.9em;
 }
 
 .project {
-    height: 50px;
+    /*height: 50px;*/
     /*border: 2px solid #000;*/
-    box-shadow: inset 0 0 0 1px #000;
+    /*box-shadow: inset 0 0 0 1px #000;*/
     width: 100%;
-    min-height: 325px;
+    min-height: 280px;
     text-align: center;
 }
 
@@ -80,12 +87,56 @@ h3 {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
-    
+}
+
+.project h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 20px;
 }
 
 .project p {
     padding: 0 25px;
+    font-size: 0.9em;
+    letter-spacing: 0.4px;
+    margin-right: 1px;
+    line-height: 1.5em;
 }
+
+
+/*Section Contact---------------------------*/
+
+.section-contact {
+    padding-top: 20px;
+    background-color: #F4F9F2;
+}
+
+.contact {
+    text-align: center;
+    color: #81807E;
+    font-size: 0.9em;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 1.5em;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-info li {
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+.contact-info li a {
+  color: #81807E;  
+}
+
+
 
 
 /*Media Querie------------------------------*/
@@ -113,17 +164,18 @@ h3 {
 /*Header------------------------------------*/
 
 .profile-image {
-    max-width: 40%;
-    margin: 20px 25px 25px 0px;
+    max-width: 35%;
+    margin: 20px 25px 45px 0px;
     float: right;
 }
 
 .header p {
     float: left;
-    max-width: 45%;
+    max-width: 55%;
     text-align: left;
     line-height: 1.5em;
     margin: 20px 0px 25px 25px;
+    font-size: 1.2em;
 }
 
 
@@ -134,11 +186,10 @@ h3 {
     float: left;
     min-height: 360px;
     margin-left: 9.5px;
-    
 }
 
 .project p {
-    padding: 0 55px;
+    padding: 0 35px;
 }
 
 .clear {
@@ -146,21 +197,34 @@ h3 {
 }
 
 h3 {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
+
+/*Section Contact ----------------------------*/
+
+.contact {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 1.2em;
+    margin-right: 45px;
+    margin-left: 45px;
 }
+
+.contact-info {
+   font-size: 1.3em;
+}
+
+}
+
+
 
 
 @media (min-width: 1024px) {
 
 
 /*Navbar---------------------------------------*/
-
-.navbar {
-
-}
 
 .nav {
     text-align: right;
@@ -181,7 +245,21 @@ h3 {
 .name a {
     float: left;
     padding-left: 25px;
+    margin-left: 10px;
     font-size: 1.5em;
+}
+
+
+/*Header -----------------------------------*/
+
+.profile-image {
+    max-width: 40%;
+}
+
+.header p {
+    max-width: 40%;
+    font-size: 1.3em;
+    max-width: 56%;
 }
 
 
@@ -198,7 +276,11 @@ h3 {
     padding: 0 34px;
 }
 
-.header p {
-    max-width: 40%;
+.contact {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
+
 }
