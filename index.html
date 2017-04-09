@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Project-2</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,8 +14,8 @@
         </div>
         <ul class="nav">
           <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>  
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>  
         </ul>
     </nav>
     <header>
@@ -26,7 +26,7 @@
        <div class="clear"></div>
     </header>
     <section>
-        <h3>PORTFOLIO</h3>
+        <h3 id="portfolio">PORTFOLIO</h3>
         <div class="project">
             <img src="images/portfolio-1.png" alt="">
             <h2>
@@ -83,7 +83,7 @@
         </div>
     </section>
     <div class="clear"></div>
-    <section class="section-contact">
+    <section class="section-contact" id="contact">
         <h3>
             CONTACT
         </h3>
@@ -91,10 +91,28 @@
             If you're interesed in chatting or want more information about what I've been working on, I'd love to hear from you!
         </p>
         <ul class="contact-info">
-            <li class="phone"><a href="tel:(305)834-5136">Phone (305)834-5136</a></li>
-            <li class="mail"><a href="mailto:greidyrojascalero@gmail.com">Email greidyrojascalero@gmail.com</a></li>
+            <li class="phone"><a href="tel:(305)834-5136">Phone <strong>(305)834-5136</strong></a></li>
+            <li class="mail"><a href="mailto:greidyrojascalero@gmail.com">Email <strong>greidyrojascalero@gmail.com</strong></a></li>
         </ul>
     </section>
-    <footer>Footer</footer>
+    <footer>
+        <div class="footer-name">
+            <a href="">Greidy Rojas</a>
+            <!--<h3>Greidy Rojas</h3>-->
+        </div>
+
+        <div class="footer-button">
+            <a href="index.html">BACK TO TOP</a>
+        </div>
+
+        <div class="footer-nav">
+          <ul class="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li> 
+          </ul>  
+        </div>
+        <div class="clear"></div>
+    </footer>
 </body>
 </html>
