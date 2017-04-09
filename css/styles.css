@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #313131;
+    color: #535151;
 }
 
 .name {
@@ -65,7 +65,7 @@ section {
     padding-bottom: 30px;
 }
 
-h3 {
+section h3 {
     text-align: center;
     padding-top: 40px;
     margin: 0;
@@ -137,6 +137,37 @@ h3 {
 }
 
 
+/*Footer -----------------------------------*/
+
+footer {
+  border-top: 1px solid lightgrey;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer-name a {
+    float: left;
+    margin: 20px;
+    margin-left: 5px;
+    font-size: 0.8em;
+    font-weight: 900;
+    color: #535151;
+}
+
+.footer-button a {
+    float: right;
+    margin: 20px;
+    margin-right: 5px;
+    font-size: 0.7em;
+    font-weight: 900;
+    color: #535151;
+    display: initial;
+}
+
+.footer-nav .nav {
+    display: none;
+}
+
 
 
 /*Media Querie------------------------------*/
@@ -196,7 +227,7 @@ h3 {
     clear: both;
 }
 
-h3 {
+section h3 {
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -216,10 +247,43 @@ h3 {
    font-size: 1.3em;
 }
 
+
+/*Footer -----------------------------------*/
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
+.footer-name a {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
 
+.footer-button {
+    display: none;
+}
 
+.footer-nav .nav {
+    display: initial;
+    float: right;
+    font-size: 0.9em;
+    font-weight: 900;
+    color: #535151;
+}
+
+.footer-nav li {
+    padding-right: 0px;
+}
+
+.footer-nav a {
+    color: #535151;
+}
+
+}
 
 @media (min-width: 1024px) {
 
@@ -281,6 +345,19 @@ h3 {
     padding-right: 100px;
     margin-right: 100px;
     margin-left: 100px;
+}
+
+
+/*Footer --------------------------------*/
+
+.footer-name a {
+    font-size: 1.1em;
+    margin-left: 15px;
+}
+
+
+.footer-nav li {
+    padding-right: 0px;
 }
 
 }
