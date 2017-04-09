@@ -20,6 +20,10 @@ a {
     color: #535151;
 }
 
+a:hover{
+    color: #858282;
+}
+
 .name {
     font-size: 1.5em;
     padding-top: 15px;
@@ -154,6 +158,10 @@ footer {
     color: #535151;
 }
 
+.footer-name a:hover {
+    color: #858282;
+}
+
 .footer-button a {
     float: right;
     margin: 20px;
@@ -164,8 +172,16 @@ footer {
     display: initial;
 }
 
+.footer-button a:hover {
+    color:#858282;
+}
+
 .footer-nav .nav {
     display: none;
+}
+
+.footer-nav .nav a:hover {
+    color: #858282;
 }
 
 
